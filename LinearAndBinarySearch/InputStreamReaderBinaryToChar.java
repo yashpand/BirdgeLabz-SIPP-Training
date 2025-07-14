@@ -1,16 +1,17 @@
-package StringBuilder_StringBuffer_FileReader_LinearAndBinarySearch;
+package LinearAndBinarySearch;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
-public class FileReaderReadLines {
+public class InputStreamReaderBinaryToChar {
     public static void main(String[] args) {
     	String filePath = "src/DSA/LinearAndBinarySearch/FindRotationPoint.java";
 
-        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+        try (
+            FileInputStream fis = new FileInputStream(filePath);
+            InputStreamReader isr = new InputStreamReader(fis, "UTF-8");
+            BufferedReader reader = new BufferedReader(isr)
+        ) {
             String line;
-
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
             }

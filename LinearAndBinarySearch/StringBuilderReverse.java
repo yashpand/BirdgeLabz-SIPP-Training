@@ -1,4 +1,4 @@
-package StringBuilder_StringBuffer_FileReader_LinearAndBinarySearch;
+package LinearAndBinarySearch;
 
 public class StringBuilderReverse {
     public static String reverse(String input) {

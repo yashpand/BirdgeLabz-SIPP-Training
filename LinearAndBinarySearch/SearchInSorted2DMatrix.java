@@ -1,4 +1,4 @@
-package StringBuilder_StringBuffer_FileReader_LinearAndBinarySearch;
+package LinearAndBinarySearch;
 
 public class SearchInSorted2DMatrix {
 	public static void main(String[] args) {

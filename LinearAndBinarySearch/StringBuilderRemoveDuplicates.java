@@ -1,4 +1,4 @@
-package StringBuilder_StringBuffer_FileReader_LinearAndBinarySearch;
+package LinearAndBinarySearch;
 
 import java.util.HashSet;
 
